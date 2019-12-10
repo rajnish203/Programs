@@ -5,9 +5,9 @@ ___
 ![](https://nptel.ac.in/content/college_assets/college_logo/1078_logo.jpg)
 ----
 ---
-## **NAME** - ***SOURABH KUMAR SINHA***
-## **ROLL NO.** - *1914136*
-## **BRANCH** - *CIVIL*
+## **NAME** - ***Rajnish kumar***
+## **ROLL NO.** - *1921084*
+## **BRANCH** - *Information technology*
 '''
 ---
 ----
