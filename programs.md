@@ -1,11 +1,13 @@
-----
+___
+​----
 # **PROGRAMMING FOR PROBLEM SOLVING ESC-18105**
 ----
+![](https://nptel.ac.in/content/college_assets/college_logo/1078_logo.jpg)
 ----
 ---
-## **NAME** - ***RAJNISH KUMAR***
-## **ROLL NO.** - *1921084*
-## **BRANCH** - *INFORMATION TECHNOLOGY*
+## **NAME** - ***SOURABH KUMAR SINHA***
+## **ROLL NO.** - *1914136*
+## **BRANCH** - *CIVIL*
 '''
 ---
 ----
@@ -104,8 +106,7 @@ void main()
         else
                 printf("ODD\n");
 }
-```
-
+'''
 ----
 ## 5. TABLE OF ANY NUMBER
 ```C
@@ -333,7 +334,7 @@ printf("\n%d is the greatest number\n",c);
 }
 ```
 ----
-## 15. GREATEST INTEGER FUNCTION
+## 15. GREATEST INTEAGER FUNCTION
 ```C
 #include<stdio.h>
 int gcd(int a,int b)
@@ -378,39 +379,18 @@ int main()
  ----
  ## 16. LEAP YEAR CHECK
  ```C
- #include <stdio.h>
-    int main()
-    {
-        int year;
-        printf("Enter a year: ");
-        scanf("%d",&year);
-        if(year%4 == 0)
-        {
-            if( year%100 == 0)
-            {
-                // year is divisible by 400, hence the year is a leap year
-                if ( year%400 == 0)
-                    printf("%d is a leap year.", year);
-                else
-                    printf("%d is not a leap year.", year);
-            }
-            else
-                printf("%d is a leap year.", year );
-        }
+ #include<stdio.h>
+int main()
+{
+        int a;
+        printf("enter the year\n");
+        scanf("%d",&a);
+        if(a%4==0)
+        printf("it is a leap year\n");
         else
-            printf("%d is not a leap year.", year);
-        
-        return 0;
-    }
----
+                printf("it is not a leap year\n");
+}
 ```
-### OUTPUT
-
-Enter a year: 1900
-1900 is not a leap year.
-Enter a year: 2012
-2012 is a leap year.
-
 ----
 ## 17. LINEAR SEARCH
 ```C
@@ -683,3 +663,5 @@ void main()
         printf("\nproduct is : %d/%d\n",rnum,rden);
 }
 ```
+----
+___
